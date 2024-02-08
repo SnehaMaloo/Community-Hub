@@ -17,6 +17,7 @@ export default function Login() {
     draggable: true,
     theme: "dark",
   };
+  console.log("yoyo");
   useEffect(() => {
     if (localStorage.getItem(process.env.REACT_APP_LOCALHOST_KEY)) {
       navigate("/");
