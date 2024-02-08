@@ -15,7 +15,7 @@ function EventList() {
     description: '',
     location: ''
   });
-
+  console.log("yoyo");
   useEffect(() => {
     async function fetchData() {
       try {
